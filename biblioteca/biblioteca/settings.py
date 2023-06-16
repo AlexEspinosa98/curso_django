@@ -31,14 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'core',
+    'libros',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
 ]
 
 MIDDLEWARE = [
@@ -79,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'rfyfedsy',
-        'USER' : 'rfyfedsy',
-        'PASSWORD' : 'y9HOX0jgM428jMk_WzxTRy6C3uyuuTky',
-        'HOST' : 'motty.db.elephantsql.com',
-        'PORT' : 5432,
+        'USER': 'rfyfedsy',
+        'PASSWORD': 'y9HOX0jgM428jMk_WzxTRy6C3uyuuTky',
+        'HOST': 'motty.db.elephantsql.com',
+        'PORT': 5432,
     }
 }
 
