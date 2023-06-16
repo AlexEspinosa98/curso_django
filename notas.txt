@@ -1,0 +1,9 @@
+para usar con postgraSQL, con django
+
+cambiando en settings
+'ENGINE' : django.db.backends.postgraSQL_psycop2,
+'name' = 'biblioteca',
+'USER' = ''
+'PASWORD' = ''
+'HOST' = 'localhost',
+'PORT' = 5432
