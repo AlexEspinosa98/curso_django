@@ -6,7 +6,12 @@
 {% block body %}
 <form method="POST">
         {% csrf_token %}
-        {{ autor_form.as_p }}
-        <button type = "submit"> agregar   </button>
-</form>
+        
+        {% if error %}
+            <h2>{{error }}</h2>
+        {% else %}
+            {{ autor_form.as_p }}
+            <button type = "submit"> agregar   </button>
+        {% endif %}
+        </form>
 {% endblock body %}
